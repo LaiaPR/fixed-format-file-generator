@@ -7,7 +7,7 @@ With current implementation it supports for following data types:
 1. number
 2. string
 3. filler (with zero - 0 value)
-4. date ( in between currnet time - 60m)
+4. date ( in between current time - 60m)
 5. enum
 6. time in hhmmsst format
 
@@ -16,7 +16,7 @@ It uses "0" as padding  and " "(space) as padding for text/string format.
 ## Technologies Used
 Python 3.x
 
-## Pre-requisute
+## Pre-requisite
 Faker library must be installed. If it is not present, run as below:
 ```
 pip install Faker
@@ -127,14 +127,19 @@ Sample configuration file is as below:
    ```
 
 ### 2. Using python file to execute
-     i. Install Faker using `pip install Faker`
- 
-     ii. Open `FixedFileFormatMockGenerator.py` file in any editor preferable Visual Studio Code, pycharm editor.
 
-     iii. Run the program
+   1. Install Faker using `pip install Faker`
+
+   2. Edit input and output files paths
+
+   3. Execute in terminal:
+
+   ```
+   > .\FixedFileFormatMockGenerator.py
+   ```
 
 ## Output
-Output would looks like below:
+Output would look like below:
 ```
 Reading input config file...
 Number of rows to be generated: 1000
